@@ -1,6 +1,7 @@
 (ns dynasty.core
-  (:require [dynasty.cipher :as cipher]
-            [dynasty.data :as data]
+  (:require [dynasty.brute   :as brute]
+            [dynasty.cipher  :as cipher]
+            [dynasty.data    :as data]
             [dynasty.strings :as strings]))
 
 (def form-rift
@@ -17,12 +18,6 @@
   (->> form-rift-logs
        (map strings/stripped)))
 
-(defn any-ceasar? [offset]
-  (->> form-rift-logs-stripped
-       (map #(cipher/caesar % offset))
-       (filter #(re-matches #"syreadiae" %))))
-
 (comment
-  (map any-ceasar? (range 27))
-
+  (brute/any-ceasar? #"syreadiae" form-rift-logs-stripped)
   )
