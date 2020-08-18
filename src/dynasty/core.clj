@@ -17,8 +17,12 @@
   (->> form-rift-logs
        (map strings/stripped)))
 
-(comment
+(defn any-ceasar? [offset]
   (->> form-rift-logs-stripped
-       (map #(cipher/caesar % 3))
-       (filter #(re-matches #"syreadiae" %)))
+       (map #(cipher/caesar % offset))
+       (filter #(re-matches #"syreadiae" %))))
+
+(comment
+  (map any-ceasar? (range 27))
+
   )
