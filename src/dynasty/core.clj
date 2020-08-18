@@ -12,6 +12,10 @@
        (map :text)
        (filter (complement nil?))))
 
-(comment
+(def form-rift-logs-stripped
+  (->> form-rift-logs
+       (map strings/stripped)))
 
+(comment
+  
   )
