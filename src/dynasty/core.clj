@@ -1,5 +1,6 @@
 (ns dynasty.core
-  (:require [dynasty.data :as data]
+  (:require [dynasty.cipher :as cipher]
+            [dynasty.data :as data]
             [dynasty.strings :as strings]))
 
 (def form-rift
@@ -17,5 +18,7 @@
        (map strings/stripped)))
 
 (comment
-  
+  (->> form-rift-logs-stripped
+       (map #(cipher/caesar % 3))
+       (filter #(re-matches #"syreadiae" %)))
   )
