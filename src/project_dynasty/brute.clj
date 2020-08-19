@@ -7,5 +7,5 @@
         (range 27)))
   ([needle haystack offset]
    (->> haystack
-        (map #(cipher/caesar % offset))
+        (map #(cipher/caesar offset %))
         (filter #(re-matches needle %)))))
