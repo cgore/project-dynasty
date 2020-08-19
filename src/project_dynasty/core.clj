@@ -1,4 +1,4 @@
-(ns dynasty.core
+(ns project-dynasty.core
   (:require [dynasty.brute   :as brute]
             [dynasty.cipher  :as cipher]
             [dynasty.data    :as data]

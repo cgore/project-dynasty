@@ -1,4 +1,4 @@
-(ns dynasty.brute
+(ns project-dynasty.brute
   (:require [dynasty.cipher :as cipher]))
 
 (defn any-ceasar?

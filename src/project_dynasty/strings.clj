@@ -1,4 +1,4 @@
-(ns dynasty.strings
+(ns project-dynasty.strings
   (:require [clojure.string :as str]))
 
 (defn stripped [string]

@@ -1,4 +1,4 @@
-(ns dynasty.data)
+(ns project-dynasty.data)
 
 (def systems
   {:conflux {}

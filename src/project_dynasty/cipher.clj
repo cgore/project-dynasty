@@ -1,4 +1,4 @@
-(ns dynasty.cipher)
+(ns project-dynasty.cipher)
 
 (defn caesar [words offset]
   "Assumes offset >=0, words entirely lowercase English characters or spaces"

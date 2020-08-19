@@ -1,4 +1,4 @@
-(ns dynasty.core-test
+(ns project-dynasty.core-test
   (:require [clojure.test :refer :all]
             [dynasty.core :refer :all]))
 
