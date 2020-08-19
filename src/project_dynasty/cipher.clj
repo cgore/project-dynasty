@@ -1,7 +1,8 @@
 (ns project-dynasty.cipher)
 
-(defn caesar [offset words]
+(defn caesar
   "Assumes offset >=0, words entirely lowercase English characters or spaces"
+  [offset words]
   (let [alphabet-chars (map char "abcdefghijklmnopqrstuvwxyz")
         alphabet-shifted (->> (cycle alphabet-chars) (take 100) (drop offset))
         shifted-map (-> (zipmap alphabet-chars alphabet-shifted)
