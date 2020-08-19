@@ -1,5 +1,5 @@
 (ns project-dynasty.brute
-  (:require [dynasty.cipher :as cipher]))
+  (:require [project-dynasty.cipher :as cipher]))
 
 (defn any-ceasar?
   ([needle haystack]

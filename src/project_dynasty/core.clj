@@ -1,8 +1,8 @@
 (ns project-dynasty.core
-  (:require [dynasty.brute   :as brute]
-            [dynasty.cipher  :as cipher]
-            [dynasty.data    :as data]
-            [dynasty.strings :as strings]))
+  (:require [project-dynasty.brute   :as brute]
+            [project-dynasty.cipher  :as cipher]
+            [project-dynasty.data    :as data]
+            [project-dynasty.strings :as strings]))
 
 (def form-rift
   (-> data/systems :formidine-rift (select-keys [:alpha :beta :gamma :delta])))
