@@ -3,8 +3,8 @@
 
 (defn any-caesar?
   ([needle haystack]
-   (map #(any-caesar? needle haystack %)
-        (range 27)))
+   (flatten (map #(any-caesar? needle haystack %)
+                 (range 27))))
   ([needle haystack offset]
    (->> haystack
         (map #(cipher/caesar offset %))
