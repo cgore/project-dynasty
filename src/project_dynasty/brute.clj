@@ -1,9 +1,9 @@
 (ns project-dynasty.brute
   (:require [project-dynasty.cipher :as cipher]))
 
-(defn any-ceasar?
+(defn any-caesar?
   ([needle haystack]
-   (map #(any-ceasar? needle haystack %)
+   (map #(any-caesar? needle haystack %)
         (range 27)))
   ([needle haystack offset]
    (->> haystack

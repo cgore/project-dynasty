@@ -1,4 +1,5 @@
-(ns project-dynasty.cipher)
+(ns project-dynasty.cipher
+  (:require [project-dynasty.strings :as strings]))
 
 (defn caesar
   "Assumes offset >=0, words entirely lowercase English characters or spaces"
@@ -11,10 +12,10 @@
                          (assoc \space \space))]
      (apply str (map shifted-map (map char words))))))
 
-(defn keyed-caeser [key words]
+(defn keyed-caeser [keyword words]
   (let [alphabet-chars (map char "abcdefghijklmnopqrstuvwxyz")
-        
-        alphabet-shifted (->> (cycle alphabet-chars) (take 100) (drop offset))
-        shifted-map (-> (zipmap alphabet-chars alphabet-shifted)
-                        (assoc \space \space))]
-    (apply str (map shifted-map (map char words)))))
+        keyword-chars (distinct (map char keyword))
+        keyed-alphabet (distinct (concat keyword-chars alphabet-chars))
+        keyed-map (-> (zipmap keyed-alphabet alphabet-chars)
+                      (assoc \space \space))]
+    (apply str (map keyed-map (map char (strings/stripped words))))))

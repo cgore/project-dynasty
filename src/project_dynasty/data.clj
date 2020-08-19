@@ -46,6 +46,7 @@
                                      :text "“We’re done and we’re heading home. We picked up some heat signatures in the last system. Definitely something there and it wasn’t any profile I had seen before. Something was watching us. There’s something evil out here, and it doesn’t like company!”"}]}
                     :delta  {:system {:name "Eafots GL-Y e2"}
                              :site {:body "6" :coordinates {:lat 21.2752 :lon 19.066}}
+                             :ucb "DYJEPQYUWLUDCQCKJXUEOKJ DJPQYP6UNL003 NEHHYLKCJQ6 SKNICDCJUNCSQ UESKQP AH Y U 2 IKDUPQEJDXY"
                              :logs [{:date "30/08/3270"
                                      :text "“I should have paid a bit more attention to the mission description. I just saw the credit count and signed up there and then. More money than I’ve ever earned and all in one go, just for taking a year out. What’s a poor girl got to do? A bit of a jaunt into the void, how bad could it be? Didn’t read the bit about several thousand light years. I’ve never even been past Leesti before! Get rich quick scheme – let’s go!”"}
                                     {:date "12/09/3270"
