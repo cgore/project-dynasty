@@ -19,6 +19,11 @@
        (map strings/stripped)))
 
 (comment
-  (cipher/keyed-caeser "exodus" (-> data/systems :formidine-rift :delta :ucb))
   (brute/any-caesar? #"syreadiae" form-rift-logs-stripped)
+  (cipher/keyed-caeser "exodus" (-> data/systems :formidine-rift :delta :ucb))
+  (map #(cipher/keyed-caeser "exodus" %) form-rift-logs-stripped)
+  (map #(cipher/keyed-caeser "raxxla" %) form-rift-logs-stripped)
+  (map #(cipher/keyed-caeser "eafots" %) form-rift-logs-stripped)
+  (map #(cipher/keyed-caeser "zurara" %) form-rift-logs-stripped)
+  (map #(cipher/keyed-caeser "syreadiae" %) form-rift-logs-stripped)
   )
