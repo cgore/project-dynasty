@@ -66,4 +66,36 @@
                                                                       :h 1 :m 34 :s 29.354}
                                                                  :dec {:string "62° 8' 48.403\""
                                                                        :deg 62 :m 8 :s 48.403}}}}}}
-   :hawkins-gap {}})
+   :hawkins-gap {:alpha {:logs [{:date "21/08/3270"
+                                 :text "“Damn we’ve come a long way. I really should have looked at the galactic map before I signed up for this. Weeks of endless travel and hyperspace jumps just to get into the vicinity of the place, and that’s before we get down to the work.”"}
+                                {:date "29/08/3270"
+                                 :text "“Cargo hold is rammed full of strange tech. Looks like a bunch of satellites to me, but it’s all hush hush. Normal crew like me ain’t allowed anywhere near them. Don’t know what they’re for, other than we have to drop them off in very specific locations. Weird, eh?”"}
+                                {:date "15/09/3270"
+                                 :text "“Bored rigid now, can’t wait to turn around and go home. I don’t care how good the money is, nothing is worth this tedium. We haven’t even started the return journey yet… Randomius Factoria – save me!”"}
+                                {:date "13/10/3270"
+                                 :text "“Still, it could be worse! I could have pulled the Formidine Rift gig. Rumour is they’re having to double up on ships for that one as the crews are going void-mad and ejecting themselves into space becuase they’ve seen ghosts. Word is there’s something out there.”"}
+                                ]}
+                 :beta {:logs [{:date "30/08/3270"
+                                :text "“Strange mission this, though the pay is good. Nobody seems to know who’s footing the bill, but Sirius Corp is favourite. Whatever this trip is, it’s expensive. It’s also hush hush. Even the captain doesn’t know what we’re carrying and he’s not happy about it.”"}
+                               {:date "12/09/3270"
+                                :text "“Big bust up today. Apparently this ship is flying without shields and without guns! We had an escort for the first few hundred light years, but then they peeled off and we’re on our own out here in the void! If we do come across anything nasty we’re going to have to hope we can run…”"}
+                               {:date "18/09/3270"
+                                :text "“Not a happy ship. Crew is grumbling. Captain hasn’t been seen for weeks. Cargo bay is guarded by these very unfriendly types. Don’t know what they’re protecting, but it’s enough to get a man killed over, that’s for sure.”"}
+                               {:date "1/10/3270"
+                                :text "“Cargo dropped. Turned about and on our way back to civilisation. What it was, nobody knows and nobody is asking. It’s a bit more relaxed now, whatever that cargo was it was something important. Can’t see what use it would be this far out, but maybe someone knows something we don’t…”"}]}
+                 :gamma {:logs [{:date "30/08/3270"
+                                 :text "“Beautiful part of the galaxy this, really dense clusters of stars, pretty much halfway to the core. Been one long trip though. We’re out here dropping off a series of beacons. Randomius knows what for, but they’re paying, so no questions asked!”"}
+                                {:date "12/09/3270"
+                                 :text "“Funny Thing is, I’ve asked a few of the other hands about this mission and no one seems to know who’s behind it. We all picked up bulletin board adverts promising big credits for a long haul and kind of just ended up on board. Not sure it it’s the Feds, the Imps or the Alliance. Still, credits are credits!”"}
+                                {:date "18/09/3270"
+                                 :text "“Arrived on site today. Bunch of guys had to go EVA to drop off the beacons. We’re jumping around a bunch of systems here in the gap. One of the Beacons activated all on its own, started squawking some weird code before it got switched off. We were told we hadn’t heard anything.”"}
+                                {:date "01/10/3270"
+                                 :text "“I’m logging this, but I shouldn’t be. Bunch of guys were talking about the beacons yesterday and then there was a mysterious accident in the airlock – they’re all dead! Feeling aboard is mutinous. Just want to get back home. I ain’t doing no top secret missions again, that’s for sure.”"}]}
+                 :delta {:logs [{:date "30/08/3270"
+                                 :text "“This is a bigger operation than I thought it was. A massive fleet of Anacondas all prepped for long endurance travel out to the edge of beyond. No ships have markings, no emblems, no political affiliation. Somebody with deep pockets must be paying for this, but who ?”"}
+                                {:date "12/09/3270"
+                                 :text "“Judging by the way the fleet deployed I would say there were three main destinations, all a long way outside of the core worlds. We got our orders today, we’re making for a zone called “Hawkin’s Gap”. It’s a seriously long way, not even the explorers have been out this way before. Strange mission.”"}
+                                {:date "18/09/3270"
+                                 :text "“Our little armada split up today, so we’re on our own now. Just us and the void. Still a lot of speculations as to what we’re doing. Cargo hold is full, that I don’t know. My guess is some kind of deep space survey, but I can’t figure out why we’d need to be so far out …”"}
+                                {:date "01/10/3270"
+                                 :text "“Cargo is being deployed. A series of artefacts of some kind. The handling bods aren’t part of the ship’s crew, so we don’t know what they’re doing. Captain has told us to turn a blind eye and wait for them to be done.”"}]}}})
