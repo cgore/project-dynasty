@@ -110,3 +110,39 @@
 
   (map int "foobar")
   )
+
+(comment
+  (def first-letters "WWFTIABSNPLWLFSWMWIIMSOI")
+  (def time-sorted-first-letters "WWBLIFSFINSMTPWSIALMOWWI")
+  (map (fn [x] [(cipher/keyed-caeser x first-letters)
+                (cipher/keyed-caeser x time-sorted-first-letters)])
+       [
+        "beacon"
+        "dark"
+        "darkness"
+        "doolally"
+        "dynasty"
+        "exodus"
+        "exodus"
+        "fear"
+        "formidine"
+        "frontier"
+        "heart"
+        "hyperdrive"
+        "latin"
+        "light"
+        "odysseus"
+        "odyssey"
+        "randomius"
+        "reorte"
+        "riedquat"
+        "signal"
+        "siren"
+        "soul"
+        "zurara"
+        "void"
+        "terror"
+        "evil"
+        "leesti"
+        ])
+  )
